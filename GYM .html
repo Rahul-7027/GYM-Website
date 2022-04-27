@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>GYM Website</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url("1.webp");
+        background-repeat: x;
+        color: white;
+        font-family: 'Lobster', cursive;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        text-align: center;
+        top: 18px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 18px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 23px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        cursor: pointer;
+        /* font-family: 'cursive'; */
+    }
+
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .left img {
+        width: 42px;
+        filter: invert(100%);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        border-radius: 12px;
+        font-size: 16px;
+        padding: 9px 14px;
+        cursor: pointer;
+        font-family: 'Lobster', cursive;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(0, 255, 21);
+    }
+
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 90px 90px;
+        padding: 75px;
+        width: 50%;
+        border-radius: 12px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 10px;
+        border: 2px solid green;
+        margin: 11px auto;
+        font-size: 28px;
+        border-radius: 16px;
+        font-family: 'Lobster', cursive;
+    }
+
+    .container h3 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 33%;
+        margin: 23px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="2.png" alt="" srcset="">
+            <div>Rahul Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact US</a></li>
+                <li><a href="#">Fitness Calcultor</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call ME</button>
+            <button class="btn">Contact Me</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3>Join The Best GYM In Palwal</h3>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="fname" placeholder="Enter Your Full Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="age" placeholder="Enter Your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Gender" placeholder="Enter Your Gender">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
